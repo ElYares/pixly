@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Pixly outputs ---
+processed_*.png
+*.log
+
+# --- Datasets (no subir imágenes de entrenamiento/validación) ---
+archive/
+*.pgm
+
+# --- Jupyter notebooks (si llegas a usar) ---
+.ipynb_checkpoints/
