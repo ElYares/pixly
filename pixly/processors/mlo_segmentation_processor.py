@@ -29,6 +29,6 @@ class MLOSegmentationProcessor:
         mask = np.zeros_like(image)
         cv2.drawContours(mask, [largest_contour], -1, 255, thickness=cv2.FILLED)
 
-        segmented = cv2.bitwise_and(image, image, mask=mask)
+        segmented = cv2.bitwise_and(image, image, mask=mask) 
 
-        return segmented
+        return segmented 
